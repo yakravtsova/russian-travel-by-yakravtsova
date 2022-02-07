@@ -1,0 +1,43 @@
+.places {
+  max-width: 984px;
+  margin: 0 auto 92px;
+}
+
+@media all and (max-width: 1080px) {
+  .places {
+    width: 928px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .places {
+    width: 864px;
+  }
+}
+
+@media all and (max-width: 912px) {
+  .places {
+    width: 772px;
+  }
+}
+
+@media all and (max-width: 820px) {
+  .places {
+    width: 720px;
+    margin-bottom: 90px;
+  }
+}
+
+@media all and (max-width: 740px) {
+  .places {
+    width: 520px;
+    margin-bottom: 65px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .places {
+    width: 100%;
+    min-width: 320px;
+  }
+}

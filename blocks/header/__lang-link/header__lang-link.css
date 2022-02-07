@@ -1,0 +1,22 @@
+.header__lang-link {
+  padding: 0;
+  display: block;
+  margin:  18px 0 0 18px;
+  color: #fff;
+  font-size: 24px;
+  line-height: calc(7/6);
+  text-decoration: none;
+  transition: opacity .3s linear;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+@media all and (max-width: 320px) {
+  .header__lang-link {
+    margin-top:  14px;
+    font-size: 18px;
+    line-height: calc(10/9);
+  }
+}
