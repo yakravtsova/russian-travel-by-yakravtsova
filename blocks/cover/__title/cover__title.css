@@ -6,7 +6,6 @@
   text-align: center;
   width: 560px;
   text-decoration: none;
-  align-self: center;
   margin: 0;
 }
 
@@ -15,5 +14,12 @@
     width: 90vw;
     font-size: 10vw;
     line-height: calc(35/32);
+  }
+}
+
+@media all and (max-width: 320px) {
+  .cover__title {
+    width: 100%;
+    font-size: 32px;
   }
 }

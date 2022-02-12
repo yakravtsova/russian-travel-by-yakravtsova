@@ -2,14 +2,14 @@
   background-image: url(../../images/cover-trains.jpg);
   max-width: 1184px;
   min-width: 320px;
-  height: 740px;
+  min-height: 740px;
   background-size: cover;
   margin: 0 auto 92px;
 }
 
 @media all and (max-width: 1184px) {
   .cover {
-    height: calc(740*100vw/1184);
+    min-height: calc(740*100vw/1184);
   }
 }
 

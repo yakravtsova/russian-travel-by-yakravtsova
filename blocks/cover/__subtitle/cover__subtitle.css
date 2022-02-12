@@ -6,7 +6,6 @@
   text-align: center;
   width: 360px;
   margin: 32px 0 0;
-  align-self: center;
 }
 
 @media all and (max-width: 622px) {
@@ -20,5 +19,12 @@
   .cover__subtitle {
     font-size: 4.375vw;
     line-height: calc(8/7);
+  }
+}
+
+@media all and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    min-width: 288px;
   }
 }

@@ -43,8 +43,6 @@
 @media all and (max-width: 740px) {
   .place__paragraph {
     width: calc(100% - 32px);
-    font-size: 16px;
-    line-height: 1.63;
   }
 }
 
